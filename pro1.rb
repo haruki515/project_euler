@@ -1,11 +1,10 @@
 sum = 0
-for i in 1..999 do
+(1..999).each { |i|
 
-  if i%3 === 0 || i%5 === 0
+  if ( i % 3 === 0 ) || ( i % 5 === 0 )
     sum += i
-    puts i
   end
 
-end
+}
 
 puts sum
