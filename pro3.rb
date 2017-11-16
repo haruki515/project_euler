@@ -1,6 +1,5 @@
 
 number = 600851475143
-answer = 0
 i = 0
 while true do
 
